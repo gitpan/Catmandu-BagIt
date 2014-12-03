@@ -1,0 +1,67 @@
+{
+   "abstract" : "Catmandu modules for working with BagIt packages.",
+   "author" : [
+      "Patrick Hochstenbach <Patrick.Hochstenbach@UGent.be>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.023, Dist::Milla version v1.0.5, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Catmandu-BagIt",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.039"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Archive::BagIt" : "0.052",
+            "Catmandu" : "0.9205",
+            "File::Path" : "2.09",
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Deep" : "0.112",
+            "Test::Exception" : "0.32",
+            "Test::More" : "1.001003"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/LibreCat/Catmandu-BagIt/issues"
+      },
+      "homepage" : "https://github.com/LibreCat/Catmandu-BagIt",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/LibreCat/Catmandu-BagIt.git",
+         "web" : "https://github.com/LibreCat/Catmandu-BagIt"
+      }
+   },
+   "version" : "0.01"
+}
+

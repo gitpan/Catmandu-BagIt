@@ -1,0 +1,35 @@
+---
+abstract: 'Catmandu modules for working with BagIt packages.'
+author:
+  - 'Patrick Hochstenbach <Patrick.Hochstenbach@UGent.be>'
+build_requires:
+  Test::Deep: '0.112'
+  Test::Exception: '0.32'
+  Test::More: '1.001003'
+configure_requires:
+  Module::Build::Tiny: '0.039'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.023, Dist::Milla version v1.0.5, CPAN::Meta::Converter version 2.142690'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Catmandu-BagIt
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+requires:
+  Archive::BagIt: '0.052'
+  Catmandu: '0.9205'
+  File::Path: '2.09'
+  perl: '5.008005'
+resources:
+  bugtracker: https://github.com/LibreCat/Catmandu-BagIt/issues
+  homepage: https://github.com/LibreCat/Catmandu-BagIt
+  repository: https://github.com/LibreCat/Catmandu-BagIt.git
+version: '0.01'
