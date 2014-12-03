@@ -37,6 +37,8 @@ bags/demo02/manifest-md5.txt
 bags/demo02/tagmanifest-md5.txt
 cpanfile
 dist.ini
+examples/oai2bagit.sh
+examples/pub-uni-bielefeld-de.fix
 lib/Catmandu/BagIt.pm
 lib/Catmandu/Exporter/BagIt.pm
 lib/Catmandu/Importer/BagIt.pm
